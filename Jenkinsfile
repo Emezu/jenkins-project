@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    # Update package lists
+                    # Update the package lists
                     sudo apt-get update
                     
                     # Install Nginx
